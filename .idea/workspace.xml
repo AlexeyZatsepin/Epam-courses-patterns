@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kpi/study/epam/state/HomeWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="295">
+              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
               <folding>
                 <element signature="e#784#785#0" expanded="true" />
                 <element signature="e#830#831#0" expanded="true" />
@@ -76,6 +76,322 @@
                 <element signature="e#2232#2233#0" expanded="true" />
                 <element signature="e#2279#2280#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/kpi.study.epam.state" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/kpi.study.epam.state">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>kpi.study.epam.state</OriginalElement>
+              <nodes>
+                <node x="270.4702549575072" y="327.2776203966005">kpi.study.epam.state.Human</node>
+                <node x="0.0" y="79.0">kpi.study.epam.state.CommonDay</node>
+                <node x="210.29745042492914" y="-32.9745042492918">kpi.study.epam.state.Hobby</node>
+                <node x="0.0" y="232.0">kpi.study.epam.state.VestiFM</node>
+                <node x="51.855524079320276" y="475.07648725212465">kpi.study.epam.state.Example2Runner</node>
+                <node x="101.0" y="232.0">kpi.study.epam.state.Radio7</node>
+                <node x="412.0339943342775" y="230.04532577903683">kpi.study.epam.state.Example1Runner</node>
+                <node x="196.0" y="232.0">kpi.study.epam.state.RadioFM</node>
+                <node x="0.0" y="385.0">kpi.study.epam.state.WeekEnd</node>
+                <node x="100.5" y="153.0">kpi.study.epam.state.Station</node>
+                <node x="250.0" y="79.0">kpi.study.epam.state.Mushroomer</node>
+                <node x="52.0" y="306.0">kpi.study.epam.state.Activity</node>
+                <node x="133.0" y="79.0">kpi.study.epam.state.Fisherman</node>
+                <node x="108.0" y="385.0">kpi.study.epam.state.Work</node>
+                <node x="293.8640226628895" y="148.23512747875355">kpi.study.epam.state.Radio</node>
+                <node x="219.28045325779038" y="-185.84419263456104">kpi.study.epam.state.Man</node>
+                <node x="4.7818696883852" y="-185.300283286119">kpi.study.epam.state.Runner</node>
+                <node x="381.0" y="79.0">kpi.study.epam.state.Hunter</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Work">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.WeekEnd">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Hunter" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="418.5" y="49.0" />
+                  <point x="270.875" y="49.0" />
+                  <point x="27.375" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.VestiFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio7" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.CommonDay" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="56.5" y="49.0" />
+                  <point x="216.125" y="49.0" />
+                  <point x="-27.375" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.RadioFM" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="238.5" y="207.0" />
+                  <point x="163.83333333333331" y="207.0" />
+                  <point x="25.333333333333314" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Runner" target="kpi.study.epam.state.Man">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.CommonDay">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Human" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Radio7">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.VestiFM" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="40.5" y="207.0" />
+                  <point x="113.16666666666666" y="207.0" />
+                  <point x="-25.333333333333343" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.RadioFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.RadioFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="-14.5" />
+                  <point x="140.0" y="360.0" />
+                  <point x="112.0" y="360.0" />
+                  <point x="20.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.Radio">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="-14.5" />
+                  <point x="44.0" y="360.0" />
+                  <point x="72.0" y="360.0" />
+                  <point x="-20.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Fisherman">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Mushroomer" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="305.5" y="59.0" />
+                  <point x="252.625" y="59.0" />
+                  <point x="9.125" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Work">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hunter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Fisherman" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="181.5" y="59.0" />
+                  <point x="234.375" y="59.0" />
+                  <point x="-9.125" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Human">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Mushroomer">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="21.0" y="-5.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state.uml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/state.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>kpi.study.epam.state</OriginalElement>
+              <nodes>
+                <node x="270.4702549575072" y="327.2776203966005">kpi.study.epam.state.Human</node>
+                <node x="0.0" y="79.0">kpi.study.epam.state.CommonDay</node>
+                <node x="210.29745042492914" y="-32.9745042492918">kpi.study.epam.state.Hobby</node>
+                <node x="0.0" y="232.0">kpi.study.epam.state.VestiFM</node>
+                <node x="51.855524079320276" y="475.07648725212465">kpi.study.epam.state.Example2Runner</node>
+                <node x="101.0" y="232.0">kpi.study.epam.state.Radio7</node>
+                <node x="412.0339943342775" y="230.04532577903683">kpi.study.epam.state.Example1Runner</node>
+                <node x="196.0" y="232.0">kpi.study.epam.state.RadioFM</node>
+                <node x="0.0" y="385.0">kpi.study.epam.state.WeekEnd</node>
+                <node x="100.5" y="153.0">kpi.study.epam.state.Station</node>
+                <node x="250.0" y="79.0">kpi.study.epam.state.Mushroomer</node>
+                <node x="52.0" y="306.0">kpi.study.epam.state.Activity</node>
+                <node x="133.0" y="79.0">kpi.study.epam.state.Fisherman</node>
+                <node x="108.0" y="385.0">kpi.study.epam.state.Work</node>
+                <node x="293.8640226628895" y="148.23512747875355">kpi.study.epam.state.Radio</node>
+                <node x="219.28045325779038" y="-185.84419263456104">kpi.study.epam.state.Man</node>
+                <node x="4.7818696883852" y="-185.300283286119">kpi.study.epam.state.Runner</node>
+                <node x="381.0" y="79.0">kpi.study.epam.state.Hunter</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Work">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.WeekEnd">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Hunter" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="418.5" y="49.0" />
+                  <point x="270.875" y="49.0" />
+                  <point x="27.375" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.VestiFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio7" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.CommonDay" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="56.5" y="49.0" />
+                  <point x="216.125" y="49.0" />
+                  <point x="-27.375" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.RadioFM" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="238.5" y="207.0" />
+                  <point x="163.83333333333331" y="207.0" />
+                  <point x="25.333333333333314" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Runner" target="kpi.study.epam.state.Man">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.CommonDay">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Human" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Radio7">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.VestiFM" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="-14.5" />
+                  <point x="40.5" y="207.0" />
+                  <point x="113.16666666666666" y="207.0" />
+                  <point x="-25.333333333333343" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.RadioFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.RadioFM">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="-14.5" />
+                  <point x="140.0" y="360.0" />
+                  <point x="112.0" y="360.0" />
+                  <point x="20.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.Radio">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Activity">
+                  <point x="0.0" y="-14.5" />
+                  <point x="44.0" y="360.0" />
+                  <point x="72.0" y="360.0" />
+                  <point x="-20.0" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Fisherman">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Mushroomer" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="305.5" y="59.0" />
+                  <point x="252.625" y="59.0" />
+                  <point x="9.125" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Station">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Work">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hunter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Fisherman" target="kpi.study.epam.state.Hobby">
+                  <point x="0.0" y="-14.5" />
+                  <point x="181.5" y="59.0" />
+                  <point x="234.375" y="59.0" />
+                  <point x="-9.125" y="14.5" />
+                </edge>
+                <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Human">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Mushroomer">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="278.5" y="-27.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -102,6 +418,7 @@
         <option value="$PROJECT_DIR$/src/kpi/study/epam/state/Example1.java" />
         <option value="$PROJECT_DIR$/src/kpi/study/epam/state/Example2.java" />
         <option value="$PROJECT_DIR$/src/kpi/study/epam/state/HomeWork.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -187,6 +504,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/Cellar/node/0.12.0/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Runner">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -684,15 +1002,15 @@
       <workItem from="1464112145491" duration="2530000" />
       <workItem from="1464119621323" duration="1770000" />
       <workItem from="1464156406749" duration="658000" />
-      <workItem from="1464166515979" duration="1144000" />
+      <workItem from="1464166515979" duration="1756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6102000" />
+    <option name="totallyTimeSpent" value="6714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="700" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="700" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -703,8 +1021,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -884,8 +1202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kpi/study/epam/state/HomeWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="295">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
           <folding>
             <element signature="e#784#785#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
@@ -898,6 +1216,326 @@
             <element signature="e#2232#2233#0" expanded="true" />
             <element signature="e#2279#2280#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/kpi.study.epam.state">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>kpi.study.epam.state</OriginalElement>
+          <nodes>
+            <node x="270.4702549575072" y="327.2776203966005">kpi.study.epam.state.Human</node>
+            <node x="0.0" y="79.0">kpi.study.epam.state.CommonDay</node>
+            <node x="210.29745042492914" y="-32.9745042492918">kpi.study.epam.state.Hobby</node>
+            <node x="0.0" y="232.0">kpi.study.epam.state.VestiFM</node>
+            <node x="51.855524079320276" y="475.07648725212465">kpi.study.epam.state.Example2Runner</node>
+            <node x="101.0" y="232.0">kpi.study.epam.state.Radio7</node>
+            <node x="412.0339943342775" y="230.04532577903683">kpi.study.epam.state.Example1Runner</node>
+            <node x="196.0" y="232.0">kpi.study.epam.state.RadioFM</node>
+            <node x="0.0" y="385.0">kpi.study.epam.state.WeekEnd</node>
+            <node x="100.5" y="153.0">kpi.study.epam.state.Station</node>
+            <node x="250.0" y="79.0">kpi.study.epam.state.Mushroomer</node>
+            <node x="52.0" y="306.0">kpi.study.epam.state.Activity</node>
+            <node x="133.0" y="79.0">kpi.study.epam.state.Fisherman</node>
+            <node x="108.0" y="385.0">kpi.study.epam.state.Work</node>
+            <node x="293.8640226628895" y="148.23512747875355">kpi.study.epam.state.Radio</node>
+            <node x="219.28045325779038" y="-185.84419263456104">kpi.study.epam.state.Man</node>
+            <node x="4.7818696883852" y="-185.300283286119">kpi.study.epam.state.Runner</node>
+            <node x="381.0" y="79.0">kpi.study.epam.state.Hunter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Work">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.WeekEnd">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Hunter" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="418.5" y="49.0" />
+              <point x="270.875" y="49.0" />
+              <point x="27.375" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.VestiFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio7" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.CommonDay" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="56.5" y="49.0" />
+              <point x="216.125" y="49.0" />
+              <point x="-27.375" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.RadioFM" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="238.5" y="207.0" />
+              <point x="163.83333333333331" y="207.0" />
+              <point x="25.333333333333314" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Runner" target="kpi.study.epam.state.Man">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.CommonDay">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Human" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Radio7">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.VestiFM" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="40.5" y="207.0" />
+              <point x="113.16666666666666" y="207.0" />
+              <point x="-25.333333333333343" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.RadioFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.RadioFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="-14.5" />
+              <point x="140.0" y="360.0" />
+              <point x="112.0" y="360.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.Radio">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="-14.5" />
+              <point x="44.0" y="360.0" />
+              <point x="72.0" y="360.0" />
+              <point x="-20.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Fisherman">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Mushroomer" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="305.5" y="59.0" />
+              <point x="252.625" y="59.0" />
+              <point x="9.125" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Work">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hunter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Fisherman" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="181.5" y="59.0" />
+              <point x="234.375" y="59.0" />
+              <point x="-9.125" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Human">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Mushroomer">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="21.0" y="-5.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>kpi.study.epam.state</OriginalElement>
+          <nodes>
+            <node x="270.4702549575072" y="327.2776203966005">kpi.study.epam.state.Human</node>
+            <node x="0.0" y="79.0">kpi.study.epam.state.CommonDay</node>
+            <node x="210.29745042492914" y="-32.9745042492918">kpi.study.epam.state.Hobby</node>
+            <node x="0.0" y="232.0">kpi.study.epam.state.VestiFM</node>
+            <node x="51.855524079320276" y="475.07648725212465">kpi.study.epam.state.Example2Runner</node>
+            <node x="101.0" y="232.0">kpi.study.epam.state.Radio7</node>
+            <node x="412.0339943342775" y="230.04532577903683">kpi.study.epam.state.Example1Runner</node>
+            <node x="196.0" y="232.0">kpi.study.epam.state.RadioFM</node>
+            <node x="0.0" y="385.0">kpi.study.epam.state.WeekEnd</node>
+            <node x="100.5" y="153.0">kpi.study.epam.state.Station</node>
+            <node x="250.0" y="79.0">kpi.study.epam.state.Mushroomer</node>
+            <node x="52.0" y="306.0">kpi.study.epam.state.Activity</node>
+            <node x="133.0" y="79.0">kpi.study.epam.state.Fisherman</node>
+            <node x="108.0" y="385.0">kpi.study.epam.state.Work</node>
+            <node x="293.8640226628895" y="148.23512747875355">kpi.study.epam.state.Radio</node>
+            <node x="219.28045325779038" y="-185.84419263456104">kpi.study.epam.state.Man</node>
+            <node x="4.7818696883852" y="-185.300283286119">kpi.study.epam.state.Runner</node>
+            <node x="381.0" y="79.0">kpi.study.epam.state.Hunter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Work">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.WeekEnd">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Hunter" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="418.5" y="49.0" />
+              <point x="270.875" y="49.0" />
+              <point x="27.375" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.VestiFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio7" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.CommonDay" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="56.5" y="49.0" />
+              <point x="216.125" y="49.0" />
+              <point x="-27.375" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.RadioFM" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="238.5" y="207.0" />
+              <point x="163.83333333333331" y="207.0" />
+              <point x="25.333333333333314" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Runner" target="kpi.study.epam.state.Man">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.CommonDay">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Human" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Radio7">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.VestiFM" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="-14.5" />
+              <point x="40.5" y="207.0" />
+              <point x="113.16666666666666" y="207.0" />
+              <point x="-25.333333333333343" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.RadioFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.RadioFM">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Work" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="-14.5" />
+              <point x="140.0" y="360.0" />
+              <point x="112.0" y="360.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example1Runner" target="kpi.study.epam.state.Radio">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Activity">
+              <point x="0.0" y="-14.5" />
+              <point x="44.0" y="360.0" />
+              <point x="72.0" y="360.0" />
+              <point x="-20.0" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Fisherman">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Mushroomer" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="305.5" y="59.0" />
+              <point x="252.625" y="59.0" />
+              <point x="9.125" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Radio" target="kpi.study.epam.state.Station">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.WeekEnd" target="kpi.study.epam.state.Work">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Hunter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Fisherman" target="kpi.study.epam.state.Hobby">
+              <point x="0.0" y="-14.5" />
+              <point x="181.5" y="59.0" />
+              <point x="234.375" y="59.0" />
+              <point x="-9.125" y="14.5" />
+            </edge>
+            <edge source="kpi.study.epam.state.Example2Runner" target="kpi.study.epam.state.Human">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="kpi.study.epam.state.Man" target="kpi.study.epam.state.Mushroomer">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="278.5" y="-27.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
